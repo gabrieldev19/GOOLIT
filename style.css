@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+    background-color: #E5E5E5;
+    overflow-y: hidden;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+}
+.main-container{
+    width: 100vw;
+}
+#container .main-container .head {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 95%;
+}
+#container .main-container .head header:nth-child(1){
+    font-size: 3rem;
+    color:  #77A9FF;
+    font-weight: 700;
+    align-items: center;
+}
+#container .main-container{
+    display: flex;
+    flex-direction: column;
+}
+#container .main-container .main{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+}
+input{
+    width: 24rem;
+    height: 2.5rem;
+    border-radius: 2rem 0 0 2rem;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+input::placeholder{
+    color: #ADADAD;
+    font-size: 1rem;
+    font-weight: 400;
+}
+input:focus{
+    outline: none;
+}
+
+button{
+    width: 7rem;
+    border-radius: 0 2rem 2rem 0;
+    background-color: #649DFF;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFF;
+}
+button:hover{
+    background-image: linear-gradient(to top, #4f7ac3,#649DFF);
+}
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+    margin-right: 4rem;
+    font-weight: 400;
+    color: #585859;
+    font-size: 1rem;
+}
+.description .github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+a{
+    margin-left: 0.5rem;
+    text-decoration: none;
+}
+
+
+
